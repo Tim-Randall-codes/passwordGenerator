@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  ContentView2.swift
 //  PasswordGen
 //
 //  Created by Tim Randall on 30/5/21.
@@ -7,16 +7,15 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ContentView2: View {
     @StateObject var viewRouter: ViewRouter
     var body: some View {
-        Text(lowerCase())
-            .padding()
+        Text("View 2")
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct ContentView2_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(viewRouter: ViewRouter())
+        ContentView2(viewRouter: ViewRouter())
     }
 }
