@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView2: View {
     @StateObject var viewRouter: ViewRouter
     var body: some View {
-        Text("View 2")
+        Text("Select Character Type:")
     }
 }
 
